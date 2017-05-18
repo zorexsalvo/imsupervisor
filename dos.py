@@ -1,7 +1,9 @@
-import time
+from flask import Flask
+app = Flask(__name__)
 
-while(True):
-    print('=====================')
-    print('Dos Application')
-    print('=====================')
-    time.sleep(60)
+@app.route('/')
+def hello():
+    return 'Dos Application'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5001)
