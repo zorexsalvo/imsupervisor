@@ -1,3 +1,3 @@
 # supervisor-me
 
-Two flask application with supervisord.
+Multiple flask applications with supervisord.
