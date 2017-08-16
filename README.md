@@ -1,3 +1,3 @@
-# supervisor-me
+# imsupervisor
 
-Multiple flask applications with supervisord.
+Sample multiple flask applications with docker and supervisord.
